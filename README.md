@@ -17,6 +17,7 @@ As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus One
 ### Discord.Net Addons & Guides
 
 - Guides
+  - [Basic Starter Bot](BasicBot/)
   - [Basic Commands Guide](Discord.Net-Addons/BasicCommands/)
   - [Custom Precondition Guide](Discord.Net-Addons/CustomPreconditions)
   - [Global Static Class For Client & CommandService Guide](Discord.Net-Addons/GlobalStatic)

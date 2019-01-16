@@ -12,3 +12,6 @@ Discord.Net-Addons/GlobalStatic/ExampleBot/GlobalStatic_ExampleBot/obj/Debug/net
 Discord.Net-Addons/GlobalStatic/ExampleBot/GlobalStatic_ExampleBot/obj/Debug/netcoreapp2.0/GlobalStatic_ExampleBot.assets.cache
 Discord.Net-Addons/GlobalStatic/ExampleBot/GlobalStatic_ExampleBot/GlobalStatic_ExampleBot.csproj
 Discord.Net-Addons/GlobalStatic/ExampleBot/GlobalStatic_ExampleBot/GlobalStatic_ExampleBot.csproj
+BasicBot/.vs/*
+BasicBot/src/obj/*
+BasicBot/src/bin/*
