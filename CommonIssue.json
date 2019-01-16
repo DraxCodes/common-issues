@@ -1,0 +1,132 @@
+[
+  {
+    "Name": "ArgumentException In AddModulesAsync",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "ArgumentException",
+      "AddModulesAsync"
+    ],
+    "Description": "A minor exception caused mainly when updating from Discord.Net 1.0.9 to Discord.Net 2.0",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Issues/ArgumentExceptionAddModulesAsync.md"
+  },
+  {
+    "Name": "Visual Studio Break on Exceptions",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "Exceptions",
+	  "Breaks",
+	  "Break"
+    ],
+    "Description": "Ensure the Visual Studio IDE breaks when an Exception is thrown.",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Issues/VisualStudioBreakOnException.md"
+  },
+  {
+    "Name": "BadArgCount",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "BadArgCount",
+	  "Args"
+    ],
+    "Description": "Caused when you have a command that requires one or more parameters, however you give it less than it requires.",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Issues/BadArgCount.md"
+  },
+  {
+    "Name": "Nuget packages",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Nuget%20Packages.png",
+    "Aliases": [
+      "Nuget",
+	  "Packages"
+    ],
+    "Description": "Installing & Restoring Nuget Packages",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Issues/NugetPackages.md"
+  },
+  {
+    "Name": "Basic Command Guide Discord.Net 2.0",
+	"Img": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Images/CommandsGuide/TheBasics.png",
+    "Aliases": [
+      "Command",
+	  "Basic",
+	  "Guide",
+	  "Discord.Net"
+    ],
+    "Description": "The basics of setting up your own custom command modules in Discord.Net 2.0",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/Discord.Net-Addons/BasicCommands"
+  },
+  {
+    "Name": "Custom Preconditions Example",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/CustomPreconditions.png",
+    "Aliases": [
+      "Precondition Guide",
+	  "Custom"
+    ],
+    "Description": "This example will allow you to better understand the creation of custom Preconditions.",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/Discord.Net-Addons/CustomPreconditions"
+  },
+  {
+    "Name": "Global Static Client & CommandService",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/GlobalStatic.png",
+    "Aliases": [
+      "Global Static",
+	  "Client",
+	  "CommandService"
+    ],
+    "Description": "How to use a Global Static class to handle your Client & CommandService (Instead of Using Dependency Injection)",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/Discord.Net-Addons/GlobalStatic"
+  },
+  {
+    "Name": "Generate Help Embeds",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "Help",
+	  "Generate",
+	  "Helper"
+    ],
+    "Description": "An extension of Discord.Net.Commands, mainly to get information about your commands as string, ideally to build a help command. Comes with a extension of the CommandService to build a help command easily! By Charly",
+    "Url": "https://github.com/Charly6596/Discord.Addons.CommandsExtension"
+  },
+  {
+    "Name": "Embed Handler Addon",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/EmbedHandler.png",
+    "Aliases": [
+      "Embed",
+	  "Handler",
+	  "Addon"
+    ],
+    "Description": "This addon allows you to easily create simple Embeds and can be extended to allow the creation of more complex Embeds as you see fit.",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/Discord.Net-Addons/EmbedHandler"
+  },
+  {
+    "Name": "Using your own entities as Command Parameters & Converters",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "Entities",
+	  "DSharpPlus",
+	  "Parameters",
+	  "Converters"
+    ],
+    "Description": "This is a basic example of converting DSharpPlus entities to your own entities. Might be useful if you follow the Miunie architechture.",
+    "Url": "https://github.com/Charly6596/DSharpConverterExample"
+  },
+  {
+    "Name": "Random Picker Using LINQ",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "Random",
+	  "Picker",
+	  "Linq"
+    ],
+    "Description": "This class contains an extension method to any IEnumerable. This will allow you to append PickRandom() to any collection.",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/blob/master/DotNet-Addons/PickRandomLINQ.cs"
+  },
+  {
+    "Name": "Storing Data With JSON",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/DataStorage-Json.png",
+    "Aliases": [
+      "Data",
+	  "Json",
+	  "Objects"
+    ],
+    "Description": "How to Serialize (Store) & Deserialize (Load) JSON data files.",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/DotNet-Addons/JSON-Storage"
+  }
+]
