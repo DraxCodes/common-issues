@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="../Images/BasicBot.png">
+</p>
+
 # Basic Starter Bot Project
 
 ## What Is This
