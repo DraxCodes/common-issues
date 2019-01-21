@@ -20,6 +20,19 @@ await CommandService.AddModulesAsync(Assembly.GetEntryAssembly(), null);
 await CommandService.AddModulesAsync(Assembly.GetEntryAssembly(), ServiceCollection);
 ```
 
+The Same thing has to be done for ExecuteAsync As-well.
+
+```cs
+//Previous way of doing it
+YourCommandService.ExecuteAsync(context, argPos, MultiMatchHandling.Best);
+
+//New way of doing it (No Dependency Injection)
+YourCommandService.ExecuteAsync(context, argPos, null, MultiMatchHandling.Best);
+
+//new way of doing it (With Dependency Injection)
+YourCommandService.ExecuteAsync(context, argPos, YourServiceCollection, MultiMatchHandling.Best);
+```
+
 This new way of handling adding your Modules to the CommandService is primarily to allow for Dependency Injection [Read Up On It Here](https://docs.stillu.cc/guides/commands/dependency-injection.html). If you're not using DI at all then simply passing null is fine. (As Shown above)
 
 Discord:  [Discord-BOT-Tutorial Server](https://discord.gg/cGhEZuk)
