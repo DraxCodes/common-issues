@@ -21,6 +21,8 @@ This example allows you to delete the users message when they use a command. For
 await Context.Message.DeleteAsync();
 ```
 
+### Second Example
+
 This Example would be used when you're trying to retrieve a message and delete it. In this case we're going to simplify it by only getting the 5 very last messages sent in the channel.
 
 ```cs
@@ -44,6 +46,8 @@ var userMessage = pastMessages.Result.FirstOrDefault(m =>
 //Delete that message.
 await userMessage?.DeleteAsync();
 ```
+
+### More Complex Example
 
 Now you have a basic idea you could also extend this idea to make a Purge command (otherwise known as a clear command). You could specify how many messages you want it delete and have the bot remove that amount of messages from the channel.
 
