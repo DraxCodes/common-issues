@@ -40,7 +40,7 @@ Or as an alternative to that, we can be more specific with the messages we delet
 ```cs
 //Get the last 5 messages sent in the channel. (Same as before)
 var pastMessages = Context.Channel.GetMessagesAsync(5).FlattenAsync();
-//Look through the messages to check if they cnatin a "bad word"
+//Look through the messages to check if they contain a "bad word"
 var userMessage = pastMessages.Result.FirstOrDefault(m =>
             m.Content.Contains("SOME BAD WORD"));
 //Delete that message.
