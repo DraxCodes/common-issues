@@ -66,7 +66,7 @@ public async Task PurgeMessages(string ammount)
         {
             await msg.DeleteAsync();
         }
-        var reply = await ReplyAsync("The Messages Have been pruged!");
+        var reply = await ReplyAsync("The Messages Have been purged!");
         await Task.Delay(4000);
         await reply.DeleteAsync();
     }
