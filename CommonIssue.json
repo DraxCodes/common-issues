@@ -4,7 +4,8 @@
 	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
     "Aliases": [
       "ArgumentException",
-      "AddModulesAsync"
+      "AddModulesAsync",
+      "ExecuteAsync"
     ],
     "Description": "A minor exception caused mainly when updating from Discord.Net 1.0.9 to Discord.Net 2.0",
     "Url": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Issues/ArgumentExceptionAddModulesAsync.md"
