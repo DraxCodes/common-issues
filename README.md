@@ -13,6 +13,7 @@ As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus One
 - [Visual Studio IDE Break On Exception](Issues/VisualStudioBreakOnException.md)
 - [BadArgCount](Issues/BadArgCount.md)
 - [Nuget Packages](Issues/NugetPackages.md)
+- [Running a discord bot in a Windows 7 machine](Issues/RunningDiscordNetOnWindows7.md)
 
 ### Discord.Net Addons & Guides
 

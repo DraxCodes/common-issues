@@ -22,6 +22,16 @@
     "Url": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Issues/VisualStudioBreakOnException.md"
   },
   {
+    "Name": "Running a discord bot in a Windows 7 machine",
+    "Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "Windows 7",
+      "WS4NET"
+    ],
+    "Description": "How to run a discord bot in a Windows 7 machine, setting a compatible socket provider",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Issues/RunningDiscordNetOnWindows7.md"
+  },
+  {
     "Name": "BadArgCount",
 	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
     "Aliases": [
