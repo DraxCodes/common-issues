@@ -178,6 +178,6 @@
       "Json"
     ],
     "Description": "A simple example of how you can use JSON to store a bot config as-well as fully functioning DataStorage class to Retrieve or Store (Overwrite) a BotConfig.json file.",
-    "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/DotNet-Addons/JSON-Storage/BotConfigExample)"
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/DotNet-Addons/JSON-Storage/BotConfigExample"
   }
 ]
