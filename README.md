@@ -14,6 +14,7 @@ As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus One
 - [BadArgCount](Issues/BadArgCount.md)
 - [Nuget Packages](Issues/NugetPackages.md)
 - [Running a discord bot in a Windows 7 machine](Issues/RunningDiscordNetOnWindows7.md)
+- [Custom Emojis](Issues/CustomEmojis.md)
 
 ### Discord.Net Addons & Guides
 

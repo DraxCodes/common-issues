@@ -160,5 +160,14 @@
     ],
     "Description": "DeleteMessageAsync is a method you can use to (as the name says) deletes messaged for you.",
     "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/Issues/DeleteMessageAsync.md"
+  },
+  {
+    "Name": "Custom Emojis",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "CustomEmoji"
+    ],
+    "Description": "Guides you through the several different ways to both find and send Custom Emojis in a Discord.Net or D#+ Bot.",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/Issues/CustomEmojis.md"
   }
 ]
