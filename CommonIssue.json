@@ -169,5 +169,15 @@
     ],
     "Description": "Guides you through the several different ways to both find and send Custom Emojis in a Discord.Net or D#+ Bot.",
     "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/Issues/CustomEmojis.md"
+  },
+  {
+    "Name": "Bot Config Using JSON",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/DataStorage-Json.png",
+    "Aliases": [
+      "BotConfig",
+      "Json"
+    ],
+    "Description": "A simple example of how you can use JSON to store a bot config as-well as fully functioning DataStorage class to Retrieve or Store (Overwrite) a BotConfig.json file.",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/DotNet-Addons/JSON-Storage/BotConfigExample)"
   }
 ]
