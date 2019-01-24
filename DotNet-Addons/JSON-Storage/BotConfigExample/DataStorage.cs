@@ -1,4 +1,4 @@
-
+//Public Method to retrieve the bot config (Will also create a new one if one is not found)
 public BotConfig GetBotConfig(string filepath)
     => FetchOrCreateBotConfig(filepath);
 
