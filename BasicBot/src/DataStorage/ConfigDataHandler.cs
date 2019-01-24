@@ -41,6 +41,8 @@ namespace BasicBot.DataStorage
                     $"\nPlease fill out the values and restart the bot.");
                 var json = JsonConvert.SerializeObject(GenBlankConfig(), Formatting.Indented);
                 File.WriteAllText(ConfigLocation, json, Encoding.UTF8);
+                Console.ReadLine();
+                Environment.Exit(0);
             }
         }
 
