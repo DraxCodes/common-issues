@@ -15,6 +15,7 @@ As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus One
 - [Nuget Packages](Issues/NugetPackages.md)
 - [Running a discord bot in a Windows 7 machine](Issues/RunningDiscordNetOnWindows7.md)
 - [Custom Emojis](Issues/CustomEmojis.md)
+- [A MessageReceived handler is blocking the gateway task](Issues/GatewayTaskBlocked.md)
 
 ### Discord.Net Addons & Guides
 
