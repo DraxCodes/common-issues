@@ -32,6 +32,17 @@
     "Url": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Issues/RunningDiscordNetOnWindows7.md"
   },
   {
+    "Name": "A MessageReceived handler is blocking the gateway task",
+    "Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "Blocked Gateway",
+      "Asynchronous methods",
+      "A MessageReceived handler is blocking the gateway task"
+    ],
+    "Description": "How to run a discord bot in a Windows 7 machine, setting a compatible socket provider",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Issues/GatewayTaskBlocked.md"
+  },
+  {
     "Name": "BadArgCount",
 	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
     "Aliases": [
