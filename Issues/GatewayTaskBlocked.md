@@ -74,7 +74,7 @@ public async Task DisplayWeatherInfo(string city)
     // Omitted code.
 }
 ```
-And that's it! As simple as that. Our command will run asynchronously without blocking the gateway, while keeping it's own 
+And that's it! As simple as that. Our command will run asynchronously without blocking the gateway, while keeping its own 
 _synchrony_.
 
 
