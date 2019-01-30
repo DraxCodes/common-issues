@@ -190,5 +190,15 @@
     ],
     "Description": "A simple example of how you can use JSON to store a bot config as-well as fully functioning DataStorage class to Retrieve or Store (Overwrite) a BotConfig.json file.",
     "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/DotNet-Addons/JSON-Storage/BotConfigExample"
+  },
+  {
+    "Name": "Discord Client Events",
+	"Img": "https://github.com/discord-bot-tutorial/common-issues/blob/master/Images/ClientEvents.png",
+    "Aliases": [
+      "ClientEvents",
+      "DiscordClientEvents"
+    ],
+    "Description": "A list of every event you can add in the Discord.Net Library.",
+    "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/Discord.Net-Addons/DiscordClientEvents"
   }
 ]
