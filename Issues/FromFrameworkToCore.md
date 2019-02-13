@@ -3,9 +3,9 @@ There are many reasons to migrate from .NET Framework to .NET Core. The main rea
 
 >Keep in mind there are some packages you won't be able to run in .NET Core, but most of the time there is an alternative.
 
-## TD;LR
+## TL;DR
 - Create a backup of your .csproj file. Renaming it adding .bak at the end should do.
-- Create another .csproj file with your project name (same name as your old .csproj) using (this)[https://github.com/discord-bot-tutorial/Miunie/blob/master/src/Miunie.Core/Miunie.Core.csproj] csproj file as template. You won't have to change anything.
+- Create another .csproj file with your project name (same name as your old .csproj) using [this csproj file](https://github.com/discord-bot-tutorial/Miunie/blob/master/src/Miunie.Core/Miunie.Core.csproj) as template. You won't have to change anything.
 - Delete the `obj` folder. This folder contains your project dependencies.
 - Add missing package references (for example, Discord.Net). There are different ways to do this. Using Visual Studio, running the `dotnet add package <packageName>` command, or adding it in the .csproj file, for example:
 ```xml
