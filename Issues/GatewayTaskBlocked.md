@@ -9,9 +9,9 @@ If you're dealing with Discord events, or just making a cool and fancy command, 
 This is caused due to our command or event handler taking more than 3 seconds to complete an action. Having the gateway blocked, means our bot can't send/receive any response using events, and, after all, our bot behavior is heavily based on events.
 
 ## Oh, I see, how could I fix that?
-The fast answer is, running whatever we're running asynchronously. To achieve that. To achieve that, we have to not `await` heavy actions in any method wich is subscribed to an event -- Commands are subscribed to the MessageReceived event. But we want to be able to run some `Task`s synchronously, don't we?
+The fast answer is, running whatever we're running asynchronously. To achieve that, we have to not `await` heavy actions in any method wich is subscribed to an event -- Commands are subscribed to the MessageReceived event. But we want to be able to run some `Task`s synchronously, don't we?
 
-I'll show you how to do that, in both cases, in commands and events, without blocking the gateway.
+I'll show you how to do that, in both cases, commands and events, without blocking the gateway.
 
 ### Running a method asynchronously in an event
 So, take a look at this example:
@@ -43,11 +43,11 @@ private async Task SendDelayedMessageAsync(SocketTextChannel channel, string mes
     await channel.SendMessageAsync(message);
 }
 ```
-This wouldn't block the gateway! Every new user would be welcomed after five seconds, with no exceptions! (assuming no network issues).
+This wouldn't block the gateway! Every new user would be welcomed after five seconds, with no exceptions! (assuming there are no network issues).
 This workaround can be applied to every `DiscordSocketClient` event, it's cool, isn't it?!
 
 ### Running a command asynchronously
-Sometimes it's just a command that performs an API request (wich usually takes over 3 seconds) what is blocking our gateway.
+Sometimes it's just a command that performs an API request (wich usually takes over 3 seconds) that is blocking our gateway.
 For example,
 ```cs
 [Command("weather")]
@@ -74,7 +74,7 @@ public async Task DisplayWeatherInfo(string city)
     // Omitted code.
 }
 ```
-And that's it! As simple as that. Our command will run asynchronously without blocking the gateway, while keeping its own 
+And that's it! Simple as that. Our command will run asynchronously without blocking the gateway, while keeping its own 
 _synchrony_.
 
 
