@@ -200,5 +200,18 @@
     ],
     "Description": "A list of every event you can add in the Discord.Net Library.",
     "Url": "https://github.com/discord-bot-tutorial/common-issues/tree/master/Discord.Net-Addons/DiscordClientEvents"
+  },
+  {
+    "Name": "Migrating from .NET Framework to .NET Core",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "Migrate",
+      ".netcore",
+      "netcore",
+      "framework",
+      "core2framework"
+    ],
+    "Description": "How to migrate from .NET Framework to .NET Core.",
+    "Url": "https://github.com/DraxCodes/common-issues/blob/master/Issues/FromFrameworkToCore.md"
   }
 ]
