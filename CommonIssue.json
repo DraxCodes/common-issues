@@ -209,7 +209,7 @@
       ".netcore",
       "netcore",
       "framework",
-      "core2framework"
+      "framework2core"
     ],
     "Description": "How to migrate from .NET Framework to .NET Core.",
     "Url": "https://github.com/DraxCodes/common-issues/blob/master/Issues/FromFrameworkToCore.md"
