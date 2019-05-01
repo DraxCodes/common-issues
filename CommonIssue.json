@@ -213,5 +213,15 @@
     ],
     "Description": "How to migrate from .NET Framework to .NET Core.",
     "Url": "https://github.com/DraxCodes/common-issues/blob/master/Issues/FromFrameworkToCore.md"
+  },
+  {
+    "Name": "Using Github Gist",
+	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "Gist",
+      "Github Gist"
+    ],
+    "Description": "Click the link to create your very own gist. Remember to name it with the file extension, for example MyClass.cs",
+    "Url": "https://gist.github.com/"
   }
 ]
