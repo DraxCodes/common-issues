@@ -215,6 +215,16 @@
     "Url": "https://github.com/DraxCodes/common-issues/blob/master/Issues/FromFrameworkToCore.md"
   },
   {
+    "Name": "VS Breakpoints",
+    "Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
+    "Aliases": [
+      "Breakpoints",
+      "vsbreakpoints"
+    ],
+    "Description": "How to use breakpoints in the Visual Studio IDE",
+    "Url": "https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints?view=vs-2019"
+  },
+  {
     "Name": "Using Github Gist",
 	"Img": "https://raw.githubusercontent.com/discord-bot-tutorial/common-issues/master/Images/Issues.png",
     "Aliases": [
