@@ -26,7 +26,7 @@ As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus One
   - [Global Static Class For Client & CommandService Guide](Discord.Net-Addons/GlobalStatic)
   - [DeleteMessageAsync](Issues/DeleteMessageAsync.md)
   - [Migrating from .NET Framework to .NET Core](Issues/FromFrameworkToCore.md)
-  - [Creating Embeds](Discord.Net-Addons/Embeds/)
+  - [Creating Embeds](Discord.Net-Addons/Embeds/Embeds.md)
 - Addons
   - [Generate Help Embeds with CommandService extensions](https://github.com/Charly6596/Discord.Addons.CommandsExtension)
   - [EmbedHandler Addon](Discord.Net-Addons/EmbedHandler/)
