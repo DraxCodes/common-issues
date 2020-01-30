@@ -77,13 +77,13 @@ var ourEmbed = new EmbedBuilder()
     .AddField("Field Title", "are inline fields", true);
 ```
 
-Note that the last two fields, we add above, have the extra optional `bool` parameter which we set to `true` this is simply a parameter that allows us to specify if the field should be inline or not. (Default, if not set, is false)
+Note that the last two fields, we add above, have the extra optional `bool` parameter which we set to `true` this is simply a parameter that allows us to specify if the field should be inline or not. (Default, is false)
 
 ### Building the Embed
 
 Now we have the embed built with everything we want to display in it, we can move onto actually telling the library to build it and give us an `Embed` rather than an `EmbedBuilder`. 
 
-The difference between an `Embed` & `EmbedBuilder` being that the `Embed` is what we send into discord (Shown below), and the `EmbedBuilder` is what allows us to construct it.
+The difference between an `Embed` & `EmbedBuilder` is that the `Embed` is what we send into discord (Shown below), and the `EmbedBuilder` is what allows us to construct it.
 
 To build the Embed, it's as simple as calling `.Build()`.
 
