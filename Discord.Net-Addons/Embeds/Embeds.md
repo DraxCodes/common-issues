@@ -176,6 +176,15 @@ var ourEmbed = new EmbedBuilder()
     .AddField("Field Title", "Namely they have a character limit.")
     .AddField("Field Title", "these last two", true)
     .AddField("Field Title", "are inline fields", true)
+    .WithAuthor(author => {
+        author.WithName("Author Name")
+              .WithUrl("https://discordapp.com")
+              .WithIconUrl("https://cdn.discordapp.com/embed/avatars/0.png");
+    })
+    .WithFooter(footer => {
+        footer.WithText("footer text")
+              .WithIconUrl("https://cdn.discordapp.com/embed/avatars/0.png");
+    })
     .Build();
 ```
 
@@ -193,6 +202,15 @@ var ourEmbed = new EmbedBuilder()
     .AddField("Field Title", "Namely they have a character limit.")
     .AddField("Field Title", "these last two", true)
     .AddField("Field Title", "are inline fields", true)
+    .WithAuthor(author => {
+        author.WithName("Author Name")
+              .WithUrl("https://discordapp.com")
+              .WithIconUrl("https://cdn.discordapp.com/embed/avatars/0.png");
+    })
+    .WithFooter(footer => {
+        footer.WithText("footer text")
+              .WithIconUrl("https://cdn.discordapp.com/embed/avatars/0.png");
+    })
     .Build();
 
 await ReplyAsync(embed: ourEmbed);
