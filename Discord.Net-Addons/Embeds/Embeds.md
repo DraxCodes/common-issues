@@ -23,7 +23,7 @@ In the Discord.Net library, we have access to a class called EmbedBuilder. This 
 var ourEmbed = new EmbedBuilder();
 ```
 
-Now we have the builder we can start adding to it, this is where we can start using the Builder aspects of this class. If you start typing `embedBuilder.` as soon as you put the `.` you will notice a lot of properties and methods become available to you. The methods you want to focus on are those prepended with the word `With`, EG: `WithTitle()`.
+Once we have the builder we can start adding to it, this is where we can start using the Builder aspects of this class. If you start typing `embedBuilder.` as soon as you put the `.` you will notice a lot of properties and methods become available to you. The methods you want to focus on are those prepended with the word `With`, EG: `WithTitle()`.
 
 These methods allow you to add to the embed and format as you see fit. For example, if I wanted an Embed with a title that said "*Hello World*" I would do the following.
 
@@ -32,7 +32,7 @@ var ourEmbed = new EmbedBuilder()
     .WithTitle("Hello World");
 ```
 
-Now because the EmebedBuilder allows for method chaining, you can add everything you want to your emebed all in one go. For example, if I wanted the same title but also with a Description and an Image, I would do the following.
+Now because the embedBuilder allows for method chaining, you can add everything you want to your embed all in one go. For example, if I wanted the same title but also with a Description and an Image, I would do the following.
 
 ```cs
 var ourEmbed = new EmbedBuilder()
@@ -81,7 +81,7 @@ Note that the last two fields, we add above, have the extra optional `bool` para
 
 ### Building the Embed
 
-Now we have the emebed built with everything we want to display in it, we can move onto actually telling the library to build it and give us an `Embed` rather than an `EmbedBuilder`. 
+Now we have the embed built with everything we want to display in it, we can move onto actually telling the library to build it and give us an `Embed` rather than an `EmbedBuilder`. 
 
 The difference between an `Embed` & `EmbedBuilder` being that the `Embed` is what we send into discord (Shown below), and the `EmbedBuilder` is what allows us to construct it.
 
@@ -102,7 +102,7 @@ var ourEmbed = new EmbedBuilder()
 
 ### Sending the Embed
 
-Now we have the Emebed itself, we can send it into Discord just like you would any other message, except this time we are going to make use of the optional `embed` parameter on the `SendMessageAsync()` or `ReplyAsync()` method.
+Now we have the embed itself, we can send it into Discord just like you would any other message, except this time we are going to make use of the optional `embed` parameter on the `SendMessageAsync()` or `ReplyAsync()` method.
 
 ```cs
 var ourEmbed = new EmbedBuilder()
