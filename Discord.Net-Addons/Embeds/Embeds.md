@@ -117,6 +117,47 @@ var ourEmbed = new EmbedBuilder()
     .WithAuthor(name: "Author Name", url: "https://discordapp.com", iconUrl: "https://cdn.discordapp.com/embed/avatars/0.png");
 ```
 
+### Footer
+
+The footer works much like the Author component above. This time we are going to make use of the `.WithFooter()` method.
+
+```cs
+var ourEmbed = new EmbedBuilder()
+    .WithTitle("Hello World")
+    .WithDescription("This is my super awesome description.")
+    .WithImageUrl("https://SomeImage.com/foo.png")
+    .WithColour(Color.Red)
+    .AddField("Field Title", "Some of these properties have certain limits...")
+    .AddField("Field Title", "Namely they have a character limit.")
+    .AddField("Field Title", "these last two", true)
+    .AddField("Field Title", "are inline fields", true)
+    .WithAuthor(author => {
+        author.WithName("Author Name")
+              .WithUrl("https://discordapp.com")
+              .WithIconUrl("https://cdn.discordapp.com/embed/avatars/0.png");
+    })
+    .WithFooter(footer => {
+        footer.WithText("footer text")
+              .WithIconUrl("https://cdn.discordapp.com/embed/avatars/0.png");
+    });
+```
+
+You can also use a similar overload as the Author component above. This overload works the same as the `.WithAuthor()` method, where it allows you to pass the paramters as strings rather than the `Action`.
+
+```cs
+var ourEmbed = new EmbedBuilder()
+    .WithTitle("Hello World")
+    .WithDescription("This is my super awesome description.")
+    .WithImageUrl("https://SomeImage.com/foo.png")
+    .WithColour(Color.Red)
+    .AddField("Field Title", "Some of these properties have certain limits...")
+    .AddField("Field Title", "Namely they have a character limit.")
+    .AddField("Field Title", "these last two", true)
+    .AddField("Field Title", "are inline fields", true)
+    .WithAuthor(name: "Author Name", url: "https://discordapp.com", iconUrl: "https://cdn.discordapp.com/embed/avatars/0.png");
+    .WithFooter(text: "Some Footer Text", iconUrl: "https://cdn.discordapp.com/embed/avatars/0.png");
+```
+
 ### Building the Embed
 
 Now we have the embed built with everything we want to display in it, we can move onto actually telling the library to build it and give us an `Embed` rather than an `EmbedBuilder`. 
