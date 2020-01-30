@@ -81,6 +81,27 @@ Note that the last two fields, we add above, have the extra optional `bool` para
 
 Also note that ***fields can not be empty*** for both the key and value. If you want to give the effect that the field title or description is blank, you can use a zero width character.
 
+### Author
+
+Another component of an Embed is the Author. The method we use to add an Author to the Embed is named `WithAuthor()`. The only difference between the Author component and the others we have used before is that it takes an `Action<EmbedAuthorBuilder>`. TO see how to make use of that, look at the snippet below.
+
+```cs
+var ourEmbed = new EmbedBuilder()
+    .WithTitle("Hello World")
+    .WithDescription("This is my super awesome description.")
+    .WithImageUrl("https://SomeImage.com/foo.png")
+    .WithColour(Color.Red)
+    .AddField("Field Title", "Some of these properties have certain limits...")
+    .AddField("Field Title", "Namely they have a character limit.")
+    .AddField("Field Title", "these last two", true)
+    .AddField("Field Title", "are inline fields", true)
+    .WithAuthor(author => {
+        author.WithName("Author Name")
+              .WithUrl("https://discordapp.com")
+              .WithIconUrl("https://cdn.discordapp.com/embed/avatars/0.png");
+    });
+```
+
 ### Building the Embed
 
 Now we have the embed built with everything we want to display in it, we can move onto actually telling the library to build it and give us an `Embed` rather than an `EmbedBuilder`. 
