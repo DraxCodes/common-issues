@@ -102,6 +102,21 @@ var ourEmbed = new EmbedBuilder()
     });
 ```
 
+Note that you can also make use of an overload the `.WithAuthor()` method has, this is simply a method that allows you to pass the parameters for `Name`, `Url` & `IconUrl` as strings.
+
+```cs
+var ourEmbed = new EmbedBuilder()
+    .WithTitle("Hello World")
+    .WithDescription("This is my super awesome description.")
+    .WithImageUrl("https://SomeImage.com/foo.png")
+    .WithColour(Color.Red)
+    .AddField("Field Title", "Some of these properties have certain limits...")
+    .AddField("Field Title", "Namely they have a character limit.")
+    .AddField("Field Title", "these last two", true)
+    .AddField("Field Title", "are inline fields", true)
+    .WithAuthor(name: "Author Name", url: "https://discordapp.com", iconUrl: "https://cdn.discordapp.com/embed/avatars/0.png");
+```
+
 ### Building the Embed
 
 Now we have the embed built with everything we want to display in it, we can move onto actually telling the library to build it and give us an `Embed` rather than an `EmbedBuilder`. 
