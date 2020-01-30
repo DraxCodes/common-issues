@@ -79,6 +79,8 @@ var ourEmbed = new EmbedBuilder()
 
 Note that the last two fields, we add above, have the extra optional `bool` parameter which we set to `true` this is simply a parameter that allows us to specify if the field should be inline or not. (Default, is false)
 
+Also note that ***fields can not be empty*** for both the key and value. If you want to give the effect that the field title or description is blank, you can use a zero width character.
+
 ### Building the Embed
 
 Now we have the embed built with everything we want to display in it, we can move onto actually telling the library to build it and give us an `Embed` rather than an `EmbedBuilder`. 
