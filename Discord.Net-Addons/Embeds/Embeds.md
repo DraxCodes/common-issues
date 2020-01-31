@@ -16,7 +16,7 @@ The best way to start learning how to create an embed is to head over to this li
 
 ### Basics
 
-In the Discord.Net library, we have access to a class called EmbedBuilder. This is the class that allows us to construct an Embed using the builder pattern (Don't worry if you don't what the builder pattern is, it becomes clear below).
+In the Discord.Net library, we have access to a class called EmbedBuilder. This is the class that allows us to construct an Embed using the builder pattern (Don't worry if you don't know what the builder pattern is, it becomes clear below).
 
 ```cs
 //First start by instantiating yourself a new EmbedBuilder
@@ -79,7 +79,7 @@ var ourEmbed = new EmbedBuilder()
 
 Note that the last two fields, we add above, have the extra optional `bool` parameter which we set to `true` this is simply a parameter that allows us to specify if the field should be inline or not. (Default, is false)
 
-Also note that ***fields can not be empty*** for both the key and value. If you want to give the effect that the field title or description is blank, you can use a zero width character.
+Also note that ***fields can not be empty*** for both the key and value. If you want to give the effect that the field title or description is blank, you can use a zero width character. (Common zero width character to use: `\u200b`)
 
 ### Author
 
@@ -160,9 +160,9 @@ var ourEmbed = new EmbedBuilder()
 
 ### Building the Embed
 
-Now we have the embed built with everything we want to display in it, we can move onto actually telling the library to build it and give us an `Embed` rather than an `EmbedBuilder`. 
+Now we have the embed built with everything we want to display in it, we can move onto actually telling the library to build it and give us an `Embed` rather than an `EmbedBuilder`.
 
-The difference between an `Embed` & `EmbedBuilder` is that the `Embed` is what we send into discord (Shown below), and the `EmbedBuilder` is what allows us to construct it.
+The difference between an `Embed` & `EmbedBuilder` is that the `Embed` is what we send into Discord (Shown below), and the `EmbedBuilder` is what allows us to construct it.
 
 To build the Embed, it's as simple as calling `.Build()`.
 
@@ -220,7 +220,7 @@ await Context.Channel.SendMessageAsync(embed: ourEmbed);
 
 ### Conclusion
 
-That's it. That's all there is to building and sending an embed. There are certainly more components of an embed you can use such as the Footer or Author, however it's up to you to figure those out. If you have any further questions regarding this guide, join our server at the link below.
+That's it. That's all there is to building and sending an embed. There are certainly more components of an embed you can use, however it's up to you to figure those out. If you have any further questions regarding this guide, join our server at the link below.
 
 Author: Draxis#0359
 
