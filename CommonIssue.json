@@ -233,5 +233,16 @@
     ],
     "Description": "Click the link to create your very own gist. Remember to name it with the file extension, for example MyClass.cs",
     "Url": "https://gist.github.com/"
+  },
+  {
+    "Name": "Guide Source Code",
+	  "Img": "https://raw.githubusercontent.com/programming-with-peter/common-issues/master/Images/HelpRepo.png",
+    "Aliases": [
+      "Guide source",
+      "Source code",
+      "Source"
+    ],
+    "Description": "The source code for the Guide discord bot that moderates the Programming with Peter discord server.",
+    "Url": "https://github.com/programming-with-peter/guide"
   }
 ]
